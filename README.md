@@ -1,4 +1,4 @@
-# Nostr NFC APDU Protocol (NNAP)
+# Nostr NFC APDU Protocol
 
 **Version:** 0.1
 
