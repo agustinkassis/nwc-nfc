@@ -1,18 +1,24 @@
 # Nostr NFC APDU Protocol (NNAP)
 
 **Version:** 0.1
+
 **Date:** 2025-07-20
+
 **Status:** Draft
+
 **License:** MIT
+
 **Authors:** La Crypta, Agustín Kassis, et al.
+
 **Domain of Application:** Lightning Network NFC Payments (Phone-to-Phone, Wallet-to-POS)
+
 **Inspired by:** Boltcard, LNURL, NWC, Android HCE, ISO-7816
 
 ---
 
 ## Overview
 
-This specification defines the open NNAP (Nostr NFC APDU Protocol) used to initiate and complete Lightning Network payments using NFC communication between two Android devices:
+This specification defines (NWC over NFC APDU Protocol) used to initiate and complete Lightning Network payments using NFC communication between two Android devices (The payer doesn't require Internet connection, just like regular Visa and Mastercard tap-to-pay with the phone):
 
 * One acts as a Wallet (emulating an NFC card using Android HCE)
 * The other as a POS (reading the Wallet and initiating a Lightning payment via NWC)
