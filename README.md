@@ -1,4 +1,4 @@
-# Nostr NFC APDU Protocol
+# NWC over NFC
 
 **Version:** 0.1
 
